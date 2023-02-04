@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>CRON PARSER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>CRON PARSER</h2>
+        <div>
+            <label for="fname">Enter Cron String:</label>
+            <input type="text" id="cronString" name="cronString"><br><br>
+            <input type="submit" id="submit" value="Parse" onclick="onSubmit()">
+        </div>
+        <div class="table-container">
+            <table width="600">
+                <tr>
+                    <td>
+                        Input:
+                    </td>
+                    <td id="input" align="center" width='60%'></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Minute:
+                    </td>
+                    <td id="minute" align="center" width='60%'></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Hour:
+                    </td>
+                    <td id="hour" align="center" width='60%'></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Day Of Month:
+                    </td>
+                    <td id="dayOfMonth" align="center" width='60%'></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Month:
+                    </td>
+                    <td id="month" align="center" width='60%'></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Day Of Week:
+                    </td>
+                    <td id="dayOfWeek" align="center" width='60%'></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Command:
+                    </td>
+                    <td id="command" align="center" width='60%'></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="cron.js"></script>
+</body>
+
+</html>

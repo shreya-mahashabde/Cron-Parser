@@ -1,0 +1,6 @@
+
+Firstly please convert cron.txt file to cron.js file format.
+
+Open the my_cron.html file in the browser
+Enter your Cron String in the input box, and click on Parse button
+Output will be shown into the table.

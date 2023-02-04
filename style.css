@@ -1,0 +1,13 @@
+table td {
+    border: 1px solid#333;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
